@@ -1,0 +1,36 @@
+.container {
+  --container-padding: 8px;
+  text-align: start;
+  font-size: 15px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: .5em;
+  /* font-size: calc(16em/15); */
+}
+
+.title {
+  width: 80%;
+}
+
+.link {
+  margin-bottom: .5em;
+}
+
+.link a {
+  color: unset;
+}
+
+.descList {
+  list-style: "\2013";
+  margin-left: var(--container-padding);
+}
+
+.descList li {
+  padding-left: var(--container-padding);
+  line-height: 1.25;
+}
+

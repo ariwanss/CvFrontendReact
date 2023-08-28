@@ -1,0 +1,14 @@
+.container {
+  --container-padding: 8px;
+  width: 600px;
+  margin: auto;
+  background-color: #FFF;
+  text-align: start;
+  padding: var(--container-padding);
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: var(--container-padding);
+}

@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* 
+.App * {
+  border: .5px solid #999;
+} */
+
 .App {
   text-align: center;
 }

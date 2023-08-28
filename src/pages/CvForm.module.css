@@ -1,0 +1,56 @@
+.form input, select {
+  height: 3em;
+  width: 100%;
+  margin-bottom: 5px;
+  border: 0;
+  border-radius: 8px;
+  padding: 5px 5px 5px 10px;
+}
+
+.form input[type=button] {
+  background-color: rgb(63, 63, 218);
+  color: white;
+}
+
+.form input[type=button]:hover {
+  transform: scale(1.01);
+}
+
+.form input[type=button]:active:hover {
+  transform: scale(.99);
+  background-color: rgb(58, 58, 182);
+}
+
+.form input:focus {
+  outline: 0;
+}
+
+.container {
+  width: 500px;
+  padding: 1em;
+  margin: auto;
+  background-color: rgb(202, 202, 202);
+}
+
+.descItemCont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.descItemCont p {
+  width: 80%;
+  text-align: start;
+}
+
+.descList {
+  list-style: "\2013";
+  margin-left: 1em;
+  text-align: start;
+}
+
+.descList li {
+  padding-left: .5em;
+}
